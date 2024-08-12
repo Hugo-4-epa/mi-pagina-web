@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #ccffcc; /* Verde clarito */
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            color: black; /* Color de texto para el recuadro blanco */
+        }
+        header, footer {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        button {
+            background-color: #4CAF50; /* Verde */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .acerca-de {
+            background-color: #4B2E2E; /* Fondo oscuro para contraste */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+        }
+        .acerca-de h1, .acerca-de p {
+            color: white;
+        }
+        nav ul li a {
+            color: #FFD700; /* Color dorado */
+        }
+        nav ul li a:hover {
+            color: #FFA500; /* Color naranja */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mi Página Web sobre freddy fazbear´s</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="bienvenida">
+                <h1>Bienvenido a Mi Página Web</h1>
+                <p>Esto es pa una tarea.</p>
+                <button onclick="mostrarMensaje()">Haz clic aquí</button>
+            </section>
+            <section class="acerca-de">
+                <h1>Sobre Freddy Fazbear's Pizza</h1>
+                <p>¡Hola! Bienvenido a Freddy Fazbear's Pizza. Somos una pizzería famosa por nuestros animatrónicos y espectáculos en vivo.</p>
+                <p>Aquí, los niños y las familias pueden disfrutar de deliciosas pizzas mientras son entretenidos por Freddy Fazbear, Bonnie, Chica y Foxy.</p>
+                <p>Asegúrate de usar las cámaras, las puertas, y... uh, la energía. Y recuerda: mantente con calma, ¿ok?Uh, todo lo demás está cubierto. Pero, de todos modos, revisa las cámaras, asegúrate de que todo esté en orden y... ah, te dejo. Nos vemos mañana, buena suerte</p>
+                <p>Gracias por visitarnos y esperamos que disfrutes de tu tiempo en Freddy Fazbear's Pizza. ¡Nos vemos pronto!</p>
+            </section>
+        </main>
+        <footer>
+            <p>Hugo © 2024</p>
+        </footer>
+    </div>
+    <script>
+        function mostrarMensaje() {
+            alert('¡Hoaaaa, esto sirve?!');
+        }
+    </script>
+</body>
+</html>
